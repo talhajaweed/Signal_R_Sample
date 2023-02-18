@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/SignalR_API/bin/Debug/netcoreapp3.1/SignalR_API.dll",
+            "program": "${workspaceFolder}/SignalR.API/bin/Debug/net6.0/SignalR.API.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/SignalR_API",
+            "cwd": "${workspaceFolder}/SignalR.API",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
