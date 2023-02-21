@@ -594,24 +594,26 @@
     ]
   },
   "packageFolders": {
-    "/home/talha/.nuget/packages/": {}
+    "C:\\Users\\mr_ta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/talha/Documents/Project/Example/SignalR/SignalR.API/SignalR.API.csproj",
+      "projectUniqueName": "F:\\Project\\Texpo\\R&D\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj",
       "projectName": "SignalR.API",
-      "projectPath": "/home/talha/Documents/Project/Example/SignalR/SignalR.API/SignalR.API.csproj",
-      "packagesPath": "/home/talha/.nuget/packages/",
-      "outputPath": "/home/talha/Documents/Project/Example/SignalR/SignalR.API/obj/",
+      "projectPath": "F:\\Project\\Texpo\\R&D\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj",
+      "packagesPath": "C:\\Users\\mr_ta\\.nuget\\packages\\",
+      "outputPath": "F:\\Project\\Texpo\\R&D\\Signal_R_Sample\\SignalR.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/talha/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mr_ta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -658,7 +660,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

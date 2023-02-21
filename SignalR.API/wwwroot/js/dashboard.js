@@ -33,10 +33,10 @@ function BindProductsToGrid(products) {
 	var tr;
 	$.each(products, function (index, product) {
 		tr = $('<tr/>');
-		tr.append(`<td>${(index + 1)}</td>`);
-		tr.append(`<td>${product.ProductAirName}</td>`);
-		tr.append(`<td>${product.CreatedBy}</td>`);
-		tr.append(`<td>${product.Price}</td>`);
+		tr.append(`<td>${product.productAirID}</td>`);
+		tr.append(`<td>${product.productAirName}</td>`);
+		tr.append(`<td>${product.createdBy}</td>`);
+		tr.append(`<td>${product.price}</td>`);
 		$('#tblProduct').append(tr);
 	});
 }
