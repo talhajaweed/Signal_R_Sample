@@ -37,7 +37,7 @@ namespace SignalR.API.Repositories
 
         private DataTable GetProductDetailsFromDb()
         {
-            var query = "SELECT ProductAirID, ProductAirName, CreatedBy, Price FROM ProductAir_Mst";
+            var query = "SELECT ProductAirID, ProductAirName, CreatedBy, (ProductAirID * 100) Price FROM HashMoveOwn.ProductAir_Mst";
             DataTable dataTable = new DataTable();
 
             using (SqlConnection connection = new SqlConnection(connectionString))

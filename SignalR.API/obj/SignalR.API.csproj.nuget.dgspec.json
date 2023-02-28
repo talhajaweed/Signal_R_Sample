@@ -1,21 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project\\Texpo\\R&D\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj": {}
+    "D:\\RND\\SignalR\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj": {}
   },
   "projects": {
-    "F:\\Project\\Texpo\\R&D\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj": {
+    "D:\\RND\\SignalR\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\Texpo\\R&D\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj",
+        "projectUniqueName": "D:\\RND\\SignalR\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj",
         "projectName": "SignalR.API",
-        "projectPath": "F:\\Project\\Texpo\\R&D\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj",
-        "packagesPath": "C:\\Users\\mr_ta\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\Texpo\\R&D\\Signal_R_Sample\\SignalR.API\\obj\\",
+        "projectPath": "D:\\RND\\SignalR\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj",
+        "packagesPath": "C:\\Users\\Talha jawed\\.nuget\\packages\\",
+        "outputPath": "D:\\RND\\SignalR\\Signal_R_Sample\\SignalR.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mr_ta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Talha jawed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -68,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
