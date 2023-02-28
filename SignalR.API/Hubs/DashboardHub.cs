@@ -8,13 +8,14 @@ namespace SignalR.API.Hubs
         ProductRepository productRepository;
 
         public DashboardHub(IConfiguration configuration)
-        {
+        {            
             var connectionString = configuration.GetConnectionString("DefaultConnection");
             productRepository = new ProductRepository(connectionString);
         }
 
         public async Task SendProducts()
         {
+            var sessionId = Context.ConnectionId;
             var products = productRepository.GetProducts();
             await Clients.All.SendAsync("ReceivedProducts", products);
         }

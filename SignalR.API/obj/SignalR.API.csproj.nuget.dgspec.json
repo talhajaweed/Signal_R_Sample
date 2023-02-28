@@ -1,34 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RND\\SignalR\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj": {}
+    "/home/talha/Documents/Project/Example/SignalR/SignalR.API/SignalR.API.csproj": {}
   },
   "projects": {
-    "D:\\RND\\SignalR\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj": {
+    "/home/talha/Documents/Project/Example/SignalR/SignalR.API/SignalR.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RND\\SignalR\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj",
+        "projectUniqueName": "/home/talha/Documents/Project/Example/SignalR/SignalR.API/SignalR.API.csproj",
         "projectName": "SignalR.API",
-        "projectPath": "D:\\RND\\SignalR\\Signal_R_Sample\\SignalR.API\\SignalR.API.csproj",
-        "packagesPath": "C:\\Users\\Talha jawed\\.nuget\\packages\\",
-        "outputPath": "D:\\RND\\SignalR\\Signal_R_Sample\\SignalR.API\\obj\\",
+        "projectPath": "/home/talha/Documents/Project/Example/SignalR/SignalR.API/SignalR.API.csproj",
+        "packagesPath": "/home/talha/.nuget/packages/",
+        "outputPath": "/home/talha/Documents/Project/Example/SignalR/SignalR.API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Talha jawed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/talha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
         }
       }
     }
