@@ -1,5 +1,8 @@
-﻿namespace SignalR.API.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace SignalR.API.Models
 {
+    [Table("ClientSession")]
     public class ClientSession
     {
         public string CreatedBy { get; set; }
