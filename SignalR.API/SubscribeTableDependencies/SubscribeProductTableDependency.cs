@@ -26,7 +26,10 @@ namespace SignalR.API.SubscribeTableDependencies
         {
             if (e.ChangeType != TableDependency.SqlClient.Base.Enums.ChangeType.None)
             {
-                dashboardHub.SendProducts();
+                //dashboardHub.SendProducts();
+
+                var productAir = e.Entity;
+                dashboardHub.SendProducts(productAir.CreatedBy);
             }
         }
 

@@ -9,6 +9,10 @@ builder.Services.AddControllers();
 builder.Services.AddRazorPages();
 builder.Services.AddSignalR();
 
+// Session
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
+
 // DI
 builder.Services.AddSingleton<DashboardHub>();
 builder.Services.AddSingleton<SubscribeProductTableDependency>();
@@ -30,6 +34,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapHub<DashboardHub>("/dashboardHub");
 

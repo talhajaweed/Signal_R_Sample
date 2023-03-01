@@ -19,20 +19,20 @@ namespace SignalR.API.Controllers
         }
 
         
-        [HttpPost("SaveSessioin")]
-        public IActionResult SaveSessioin([FromBody] ClientSession clientSession)
-        {
-            try
-            {
-                //var loginID = HttpContext.Session.Id;
-                var obj = clientSessionRepository.GetClientSessions(clientSession.CreatedBy);
-                return Ok("done with SaveSessioin " + obj.CreatedBy);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
+        // [HttpPost("SaveSessioin")]
+        // public IActionResult SaveSessioin([FromBody] ClientSession clientSession)
+        // {
+        //     try
+        //     {
+        //         //var loginID = HttpContext.Session.Id;
+        //         //var obj = clientSessionRepository.SaveClientSession(clientSession.CreatedBy, clientSession.);
+        //         //return Ok("done with SaveSessioin " + obj.CreatedBy);                
+        //     }
+        //     catch (Exception ex)
+        //     {
+        //         throw ex;
+        //     }
+        // }
 
         [HttpGet("{loginId}/{password}")]
         public IActionResult Get(string loginId, string password)
@@ -40,7 +40,10 @@ namespace SignalR.API.Controllers
             try
             {
                 //var loginID = HttpContext.Session.Id;
-                return Ok("done with loginId");
+                var obj = new {
+                    message = "done with loginId"
+                };
+                return Ok(obj);
             }
             catch (Exception ex)
             {

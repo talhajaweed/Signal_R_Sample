@@ -14,11 +14,16 @@ namespace SignalR.API.Repositories
         }
 
         public List<ProductAir_Mst> GetProducts()
+        { 
+            return GetProducts(null);
+        }
+
+        public List<ProductAir_Mst> GetProducts(string createdBy)
         {
             List<ProductAir_Mst> products = new List<ProductAir_Mst>();
             ProductAir_Mst product;
 
-            var data = GetProductDetailsFromDb();
+            var data = GetProductDetailsFromDb(createdBy);
 
             foreach (DataRow row in data.Rows)
             {
@@ -35,9 +40,14 @@ namespace SignalR.API.Repositories
             return products;
         }
 
-        private DataTable GetProductDetailsFromDb()
+        private DataTable GetProductDetailsFromDb(string createdBy)
         {
-            var query = "SELECT ProductAirID, ProductAirName, CreatedBy, (ProductAirID * 100) Price FROM HashMoveOwn.ProductAir_Mst";
+            string query;
+            if(createdBy == null)
+                query = "SELECT ProductAirID, ProductAirName, CreatedBy, (ProductAirID * 100) Price FROM HashMoveOwn.ProductAir_Mst";
+            else
+                query = "SELECT ProductAirID, ProductAirName, CreatedBy, (ProductAirID * 100) Price FROM HashMoveOwn.ProductAir_Mst where CreatedBy = '" + createdBy + "'" ;
+
             DataTable dataTable = new DataTable();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
